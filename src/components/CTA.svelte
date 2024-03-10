@@ -19,7 +19,7 @@
 			<Button text="Follow" />
 		</div>
 	</div>
-	<div class="my-auto flex-shrink-0 flex flex-col items-end mr-8 lg:mr-0">
+	<div class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-8 lg:mr-0">
 		<img
 			class="h-14 rounded-full"
 			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
