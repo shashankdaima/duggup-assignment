@@ -9,7 +9,12 @@
 
 <div class="flex flex-col lg:flex-row py-12 justify-center items-center">
 	<div class="flex-shrink-0 flex flex-col justify-center max-w-36">
-		<img class="h-32 w-32 rounded-full  mx-auto" style="border: 5px solid #EAEFF5; border-radius: 50%;" src="assets/profile_photo.png" alt={name} />
+		<img
+			class="h-32 w-32 rounded-full mx-auto"
+			style="border: 5px solid #EAEFF5; border-radius: 50%;"
+			src="assets/profile_photo.png"
+			alt={name}
+		/>
 		<p class="font-semibold text-2xl text-center mt-3 text-gray-600 leading-tight">{name}</p>
 	</div>
 
@@ -23,6 +28,7 @@
 	</div>
 	<div class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-8 lg:mr-0 hidden lg:block">
 		<img
+			draggable="false"
 			class="h-14 rounded-full"
 			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
 			alt="Chartr"
@@ -40,7 +46,7 @@
 
 			<img src="assets/ic_link_external.svg" class="h-4 w-4 ml-2 mt-2" alt="link" />
 
-			<img src="assets/ic_menu_horizontal.svg" class="h-6 w-6 ml-2 mt-1 " alt="menu" />
+			<img src="assets/ic_menu_horizontal.svg" class="h-6 w-6 ml-2 mt-1" alt="menu" />
 		</div>
 	</div>
 </div>

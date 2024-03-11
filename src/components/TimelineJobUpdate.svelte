@@ -7,6 +7,7 @@
 <TimelineUtil>
 	<div slot="timeline-left" class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-6 mt-6">
 		<img
+		draggable="false"
 			class="w-14 h-14 max-w-full max-h-full rounded-full"
 			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
 			alt="Chartr"
@@ -29,7 +30,7 @@
 			class="absolute  left-1/2 -translate-x-1/2 flex justify-center items-center w-7 h-4 "
 			style="margin-left: 2px; background-color: #FCFCFF;"
 		>
-			<img src="assets/ic_arrow_up.svg"/>
+			<img draggable="false" src="assets/ic_arrow_up.svg"/>
 		</div>
 	
 	</div>

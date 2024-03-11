@@ -23,6 +23,7 @@
 					src="assets/profile_photo.png"
 					alt="profile_photo"
 					class="h-36"
+					draggable="false"
 					style="object-fit: cover;"
 				/>
 				<div class="p-4">
