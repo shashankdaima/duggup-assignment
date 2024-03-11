@@ -32,32 +32,7 @@
 					</p>
 				</div>
 			</Card>
-			<Card strokes={true}>
-				<img
-					src="assets/profile_photo.png"
-					alt="profile_photo"
-					class="h-36"
-					style="object-fit: cover;"
-				/>
-				<div class="p-4">
-					<p class="text-md text-gray-600">
-						World can be better place if linkedin users don't ghost each other.
-					</p>
-				</div>
-			</Card>
-			<Card strokes={true}>
-				<img
-					src="assets/profile_photo.png"
-					alt="profile_photo"
-					class="h-36"
-					style="object-fit: cover;"
-				/>
-				<div class="p-4">
-					<p class="text-md text-gray-600">
-						World can be better place if linkedin users don't ghost each other.
-					</p>
-				</div>
-			</Card>
+			
 		</div>
 	</div>
 </TimelineUtil>
