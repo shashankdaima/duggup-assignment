@@ -1,8 +1,8 @@
 <script>
 	import Button from './Button.svelte';
 	export let name = 'Shashank Daima';
-	export let role = 'Co-Founder and CEO';
-	export let company = 'Duggup';
+	export let role = 'ex-Software Engineer';
+	export let company = 'Chartr Transits';
 	export let bio =
 		'Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.';
 </script>
