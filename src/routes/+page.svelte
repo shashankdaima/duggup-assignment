@@ -3,6 +3,7 @@
 	import Header from '../components/Header.svelte';
 	import TimelineJobUpdate from '../components/TimelineJobUpdate.svelte';
 	import TimelineUpdate from '../components/TimelineUpdate.svelte';
+	import TimelineUtil from '../components/TimelineUtil.svelte';
 </script>
 
 <main class="flex flex-col">
@@ -11,12 +12,9 @@
 		<div class="container mx-auto max-w-screen-lg">
 			<Cta />
 		</div>
-        <div style="margin-left:8%">
-            
+        <div >
             <TimelineUpdate />
 			<TimelineJobUpdate/>
-            <TimelineUpdate />
-            <TimelineUpdate />
         </div>
 	</div>
 </main>

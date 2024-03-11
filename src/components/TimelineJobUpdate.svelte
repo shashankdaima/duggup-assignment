@@ -1,43 +1,48 @@
-<!-- <script>
+<script>
 	import Card from './Card.svelte';
+	import TimelineUtil from './TimelineUtil.svelte';
 </script>
 
-<div class="flex flex-col md:flex-row md:justify-center ">
-	<div class="my-auto flex-shrink-0 flex flex-col items-end mr-10  ">
+<!-- Timeline Container -->
+<TimelineUtil>
+	<div slot="timeline-left" class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-6 mt-6">
 		<img
-			class="h-14 rounded-full"
+			class="w-14 h-14 max-w-full max-h-full rounded-full"
 			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
 			alt="Chartr"
 			style="border: 1px solid rgba(107, 114, 128, 0.5); border-radius: 50%;"
 		/>
-		<h6 class="self-end text-gray-900 font-semibold text-base mt-2">
-			Chartr
-		</h6>
+		<h6 class="self-end text-gray-900 font-semibold text-base text-right mt-2">Chartr Transits</h6>
 
-		<p class="self-end text-gray-500 text-sm mt-1" style="max-width: min-content;">
-			Software Developer
-		</p>
+		<p class="self-end text-gray-500 text-sm mt-1 text-right">Software Engineer (SDE1)</p>
+	</div>
+
+	<div slot="timeline-marker">
 		
-	</div>
-
-	<div class="relative md:flex border-r-2 border-dotted border-gray-300 mr-8">
 		<div
-			class="absolute top-12 left-1/2 -translate-x-1/2 flex justify-center items-center bg-blue-500 rounded-full w-8 h-8"
-			style="margin-left: 1px;" 
-			>
-			<div class="bg-white rounded-full w-3 h-3"></div>
+			class="absolute top-24 left-1/2 -translate-x-1/2 flex justify-center items-center bg-blue-500 rounded-full w-7 h-7"
+			style="margin-left: 2px;"
+		>
+			<div class="bg-white rounded-full w-2 h-2"></div>
 		</div>
+		<div
+			class="absolute  left-1/2 -translate-x-1/2 flex justify-center items-center w-7 h-4 "
+			style="margin-left: 2px; background-color: #FCFCFF;"
+		>
+			<img src="assets/ic_arrow_up.svg"/>
+		</div>
+	
 	</div>
-
-	<div class=" flex flex-grow grid grid-cols-1 gap-8 m-4 mr-12 lg:mr-72">
-		<Card>
-			<div class="p-4">
-
-				<h3 class="text-left text-2xl font-bold leading-8 tracking-normal">
-					Co-Founder and CEO
-				</h3>
-				<p class="text-sm text-gray-600 mt-1 ">Full-time · Remote</p>
+	<div slot="body" class=" relative  gap-8 m-4 mt-8 p-4 lg:pr-64">
+		<Card strokes={false}>
+			<div class="p-5">
+				<h6 class="text-xl font-bold" style="text-color: #141618;">
+					Co-Founder and CTO
+				</h6>
+				<p class="text-sm text-gray-400 mt-1">
+					Full-time - Remote	
+				</p>
 			</div>
 		</Card>
 	</div>
-</div> -->
+</TimelineUtil>
