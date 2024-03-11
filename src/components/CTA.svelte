@@ -7,19 +7,21 @@
 		'Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.';
 </script>
 
-<div class="flex flex-row py-12">
+<div class="flex flex-col lg:flex-row py-12 justify-center items-center">
 	<div class="flex-shrink-0 flex flex-col justify-center max-w-36">
 		<img class="h-32 w-32 rounded-full  mx-auto" style="border: 5px solid #EAEFF5; border-radius: 50%;" src="assets/profile_photo.png" alt={name} />
 		<p class="font-semibold text-2xl text-center mt-3 text-gray-600 leading-tight">{name}</p>
 	</div>
 
-	<div class="flex flex-col justify-center ml-8">
-		<p class="text-gray-600 about-me">{role} at {company} {bio}</p>
-		<div class="mt-6">
+	<div class="flex flex-col justify-center lg:ml-8 max-w-lg lg:max-w-max">
+		<p class="text-gray-600 about-me text-center lg:text-left">{role} at {company} {bio}</p>
+		<div
+			class="flex flex-col justify-center items-center mt-2 lg:mt-6 lg:block lg:justify-start lg:items-start"
+		>
 			<Button text="Follow" />
 		</div>
 	</div>
-	<div class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-8 lg:mr-0">
+	<div class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-8 lg:mr-0 hidden lg:block">
 		<img
 			class="h-14 rounded-full"
 			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
@@ -50,7 +52,6 @@
 		font-weight: 400;
 		line-height: 28px;
 		letter-spacing: 0em;
-		text-align: left;
 		color: #141618;
 	}
 </style>
