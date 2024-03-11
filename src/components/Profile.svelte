@@ -1,12 +1,12 @@
 <button class="transparent hover:bg-gray-100 rounded-md">
 
-	<div class="flex flex-row mr-4 ml-1 p-2">
-		<div class="circular-image my-auto">
+	<div class="flex flex-row mr-2 ml-1 p-2">
+		<div class="my-auto mr-2 lg:mr-0">
 			<!-- image goes here -->
-			<img src="assets/profile_photo.png" width="42px" height="42px" alt="D" class="rounded-full" />
+			<img src="assets/profile_photo.png" width="42px" height="42px" alt="D" class="rounded-full border-2 border-black-700" />
 		</div>
 
-		<div class="text my-auto mx-2">
+		<div class="text my-auto mx-2 hidden md:block ">
 			<p class="text-lg text-gray-600">Shashank Daima</p>
 		</div>
 

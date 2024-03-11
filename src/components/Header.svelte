@@ -5,15 +5,17 @@
 </script>
 
 
-<header class="w-screen container mx-auto flex flex-col max-w-screen-2xl px-2 py-2">
+<header class="w-screen container mx-auto flex flex-col max-w-screen-2xl px-2 py-2 ">
 	<div class="flex flex-row  px-5 ">
 		<!-- Logo image -->
 		<img src="assets/ic_duggup.svg" width="27px" height="27px" alt="Duggup Logo" />
 
 		<!-- Page title -->
 		<div class="font-semibold text-2xl ml-2 my-auto" style="color:#333333;">duggup</div>
-        <div class="flex-grow"/>
-        <div class="flex  flex-row">
+        <div class="flex-grow "/>
+        <div class=" lg:block hidden  my-auto">
+			<div class="flex  flex-row">
+
 			<a href="#" class="flex items-center text-blue-500 hover:text-blue-700 font-bold py-2 px-4">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -65,8 +67,10 @@
 			</a>
 			<Button text="Post" />
 			<div class="m-4"/>
-			<Profile/>
 		</div>
+
+		</div>
+		<Profile/>
 	</div>
 
 	<!-- Horizontal dotted line -->
