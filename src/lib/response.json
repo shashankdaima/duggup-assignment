@@ -1,0 +1,83 @@
+{
+    "name": "Shashank Daima",
+    "profile_photo": "assets/profile_photo.png",
+    "bio": "Wannable Software Developer, was previously interested in Mobile Development. Now, majorly have interest in Web3. Graduated from IIIT-Delhi in 2023. ",
+    "company_name": "Chartr",
+    "position": "ex-Software Developer",
+    "logo": "images/chartr_logo.png",
+    "timeline": [
+        {
+            "join_date": 1700000000,
+            "company_name": "Chartr",
+            "position": "Software Developer",
+            "logo": "images/chartr_logo.png",
+            "checkpoints": [
+                {
+                    "date": 1699934713,
+                    "items": [
+                        {
+                            "image_url": "images/new_paper_cuttings.jpeg",
+                            "thought": "Got some media coverage."
+                        }
+                    ]
+                },
+                {
+                    "date": 1699934713,
+                    "items": [
+                        {
+                            "image_url": "images/chartr_reach_launch.jpeg",
+                            "thought": "First major project launch! #proud"
+                        }
+                    ]
+                },
+                {
+                    "date": 1699550000,
+                    "items": [
+                        {
+                            "image_url": "images/chartr_tv.jpeg",
+                            "thought": "Now, i have 46 inches TV in my setup. And yours? 🤣🤣🤣🤣"
+                        },
+                        {
+                            "image_url": "images/chartr_labs.jpeg",
+                            "thought": "Finally a good place to code in iiitd. :)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "join_date": 1699850000,
+            "company_name": "Whatsviral-Rutger University",
+            "logo": "images/whatsviral.jpg",
+            "position": "Freelance Developer",
+            "checkpoints": [
+                {
+                    "date": 1699800000,
+                    "items": [
+                        {
+                            "image_url": "images/whats_viral_playstore.png",
+                            "thought": "Release app to playstore."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "join_date": 1699700000,
+            "company_name": "Built-IT Technologies",
+            "logo": "images/build_it_logo.png",
+            "position": "SDE Intern - Flutter",
+            "checkpoints": [
+                {
+                    "date": 1699650000,
+                    "items": [
+                        {
+                            "image_url": "images/food_safari_playstore.png",
+                            "thought": "Started working on app  with 50k Downloads"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
