@@ -104,7 +104,7 @@
 
 					<span>Learn</span>
 				</a>
-				<Button text="Post" />
+				<Button text="Post" icon="assets/ic_post.svg" />
 				<div class="m-4" />
 			</div>
 		</div>
