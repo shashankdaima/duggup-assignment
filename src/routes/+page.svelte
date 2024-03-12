@@ -10,7 +10,7 @@
 
 	onMount(async () => {
 		const res = await fetch(
-			'https://gist.githubusercontent.com/shashankdaima/1c7123dc2d8a122fb02fd8aadd8202ea/raw/bed8c21389eef7b2d6743d1df3f4c51532111cde/response.json'
+			'https://gist.githubusercontent.com/shashankdaima/1c7123dc2d8a122fb02fd8aadd8202ea/raw/ebcfa85462a1e81d547164866eee10e46c7c1e89/response.json'
 		);
 		data = await res.json();
 	});
