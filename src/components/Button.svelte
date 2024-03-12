@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let text: string;
-	export let icon: string | undefined=undefined;
+	export let icon: string | undefined = undefined;
 </script>
 
 <button
@@ -15,5 +15,9 @@
 	{#if icon != undefined}
 		<img class="mr-1" src={icon} width="27px" height="27px" alt="icon" />
 	{/if}
-	<p class="text-lg text-gray-600">{text}</p>
+	{#if icon != undefined}
+		<p class="text-lg text-gray-600 pr-3">{text}</p>
+	{:else}
+		<p class="text-lg text-gray-600">{text}</p>
+	{/if}
 </button>

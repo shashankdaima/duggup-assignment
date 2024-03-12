@@ -40,6 +40,8 @@
 							stroke-linejoin="round"
 						/>
 					</svg>
+					<div class="m-0.5" />
+
 					<span>Home</span>
 				</a>
 				<a href="#" class="flex items-center py-2 px-4 text-gray-500 hover:text-black">
@@ -85,6 +87,7 @@
 							stroke-linejoin="round"
 						/>
 					</svg>
+					<div class="m-0.5" />
 
 					<span>Explore</span>
 				</a>
@@ -101,9 +104,12 @@
 							fill="currentColor"
 						/>
 					</svg>
+					<div class="m-0.5" />
 
 					<span>Learn</span>
 				</a>
+				<div class="m-2" />
+
 				<Button text="Post" icon="assets/ic_post.svg" />
 				<div class="m-4" />
 			</div>

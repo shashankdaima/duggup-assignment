@@ -15,6 +15,8 @@
         <div >
             <TimelineUpdate />
 			<TimelineJobUpdate/>
+            <TimelineUpdate />
+            <TimelineUpdate />
         </div>
 	</div>
 </main>
