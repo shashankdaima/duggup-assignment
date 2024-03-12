@@ -1,6 +1,8 @@
-<script>
+<script lang="ts">
 	import Card from './Card.svelte';
 	import TimelineUtil from './TimelineUtil.svelte';
+	export let job:any;
+
 </script>
 
 <!-- Timeline Container -->
@@ -9,13 +11,14 @@
 		<img
 		draggable="false"
 			class="w-14 h-14 max-w-full max-h-full rounded-full"
-			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
+			src={job.logo}
 			alt="Chartr"
 			style="border: 1px solid rgba(107, 114, 128, 0.5); border-radius: 50%;"
 		/>
-		<h6 class="self-end text-gray-900 font-semibold text-base text-right mt-2">Chartr Transits</h6>
+		<h6 class="self-end text-gray-900 font-semibold text-base text-right mt-2">{job.company_name}</h6>
 
-		<p class="self-end text-gray-500 text-sm mt-1 text-right">Software Engineer (SDE1)</p>
+		<p class="self-end text-gray-500 text-sm mt-1 text-right">{job.position}</p>
+		<p class="self-end text-gray-500 text-sm mt-1 text-right">Joined on {job.join_date}</p>
 	</div>
 
 	<div slot="timeline-marker">
@@ -38,7 +41,7 @@
 		<Card strokes={false}>
 			<div class="p-5">
 				<h6 class="text-xl font-bold" style="text-color: #141618;">
-					Co-Founder and CTO
+					{job.position}
 				</h6>
 				<p class="text-sm text-gray-400 mt-1">
 					Full-time - Remote	

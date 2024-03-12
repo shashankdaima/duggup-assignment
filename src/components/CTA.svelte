@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
 	import Button from './Button.svelte';
-	export let name = 'Shashank Daima';
-	export let role = 'ex-Software Engineer';
-	export let company = 'Chartr Transits';
-	export let bio =
-		'Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.';
+	export let name: string;
+	export let role: string;
+	export let company: string;
+	export let bio: string;
+	export let companyLogo: string;
+	export let profileImage: string;
 </script>
 
 <div class="flex flex-col lg:flex-row py-12 justify-center items-center">
@@ -12,7 +13,7 @@
 		<img
 			class="h-32 w-32 rounded-full mx-auto"
 			style="border: 5px solid #EAEFF5; border-radius: 50%;"
-			src="assets/profile_photo.png"
+			src={profileImage}
 			alt={name}
 		/>
 		<p class="font-semibold text-2xl text-center mt-3 text-gray-600 leading-tight">{name}</p>
@@ -30,8 +31,8 @@
 		<img
 			draggable="false"
 			class="h-14 rounded-full"
-			src="https://play-lh.googleusercontent.com/RLYbkW34nzdwyj_S1QX8rcwAl6BPdlOliZRmk2h_zBlhH8L2aNODh64s1uV8ZGe14g=w240-h480-rw"
-			alt="Chartr"
+			src={companyLogo}
+			alt={company}
 			style="border: 1px solid rgba(107, 114, 128, 0.5); border-radius: 50%;"
 		/>
 		<h6 class="self-end text-gray-900 font-semibold text-base mt-2">

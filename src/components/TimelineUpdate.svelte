@@ -1,12 +1,13 @@
-<script>
+<script lang="ts">
 	import Card from './Card.svelte';
 	import TimelineUtil from './TimelineUtil.svelte';
+	export let checkpoint:any;
 </script>
 
 <!-- Timeline Container -->
 <TimelineUtil>
 	<div slot="timeline-left">
-		<p class="text-gray-500 text-sm text-right mt-24 mr-4">Dec 2023</p>
+		<p class="text-gray-500 text-sm text-right mt-24 mr-4">{checkpoint.date}</p>
 	</div>
 	<div slot="timeline-marker">
 		<div
@@ -18,10 +19,10 @@
 	</div>
 	<div slot="body">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 m-4 mr-12 ml-8 lg:mr-72">
-			{#each [1, 2, 3] as i}
+			{#each checkpoint.items as i}
 				<Card strokes={true}>
 					<img
-						src="assets/profile_photo.png"
+						src={i.image_url}
 						alt="profile_photo"
 						class="h-36"
 						draggable="false"
@@ -29,7 +30,7 @@
 					/>
 					<div class="p-4">
 						<p class="text-md text-gray-600">
-							World can be better place if linkedin users don't ghost each other.
+							{i.thought}	
 						</p>
 					</div>
 				</Card>
