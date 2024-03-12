@@ -10,7 +10,7 @@
 	<div slot="timeline-left" class="my-auto flex-shrink-0 flex flex-col items-end ml-12 mr-6 mt-6">
 		<img
 		draggable="false"
-			class="w-14 h-14 max-w-full max-h-full rounded-full"
+			class="w-14 max-w-full max-h-full rounded-full"
 			src={job.logo}
 			alt="Chartr"
 			style="border: 1px solid rgba(107, 114, 128, 0.5); border-radius: 50%;"

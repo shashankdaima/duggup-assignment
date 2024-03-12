@@ -7,13 +7,13 @@
     "logo": "images/chartr_logo.png",
     "timeline": [
         {
-            "join_date": 1700000000,
+            "join_date": "Jan-2023",
             "company_name": "Chartr",
             "position": "Software Developer",
             "logo": "images/chartr_logo.png",
             "checkpoints": [
                 {
-                    "date": 1699934713,
+                    "date": "Nov-2023",
                     "items": [
                         {
                             "image_url": "images/new_paper_cuttings.jpeg",
@@ -22,7 +22,7 @@
                     ]
                 },
                 {
-                    "date": 1699934713,
+                    "date": "Oct-2023",
                     "items": [
                         {
                             "image_url": "images/chartr_reach_launch.jpeg",
@@ -31,7 +31,7 @@
                     ]
                 },
                 {
-                    "date": 1699550000,
+                    "date": "May-2023",
                     "items": [
                         {
                             "image_url": "images/chartr_tv.jpeg",
@@ -46,13 +46,13 @@
             ]
         },
         {
-            "join_date": 1699850000,
+            "join_date": "Oct-2022",
             "company_name": "Whatsviral-Rutger University",
             "logo": "images/whatsviral.jpg",
             "position": "Freelance Developer",
             "checkpoints": [
                 {
-                    "date": 1699800000,
+                    "date": "Jan-2024",
                     "items": [
                         {
                             "image_url": "images/whats_viral_playstore.png",
@@ -63,13 +63,13 @@
             ]
         },
         {
-            "join_date": 1699700000,
+            "join_date": "Nov-2022",
             "company_name": "Built-IT Technologies",
             "logo": "images/build_it_logo.png",
             "position": "SDE Intern - Flutter",
             "checkpoints": [
                 {
-                    "date": 1699650000,
+                    "date": "Nov-2022",
                     "items": [
                         {
                             "image_url": "images/food_safari_playstore.png",
